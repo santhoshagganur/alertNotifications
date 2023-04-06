@@ -1,0 +1,6 @@
+/* Write your CSS here */
+
+.app-bg-container {
+  display: flex;
+  justify-content: center;
+}
