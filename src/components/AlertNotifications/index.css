@@ -2,5 +2,79 @@
 
 .app-bg-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.each-warning {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-width: 1px;
+  border-style: solid;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.success-icon {
+  color: #2dca73;
+  font-size: 25px;
+  background-size: cover;
+}
+
+.success-heading {
+  color: #2dca73;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.description {
+  font-size: 15px;
+}
+
+.form-close {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+.error-icon {
+  color: #ff0b37;
+  font-size: 25px;
+  background-size: cover;
+}
+
+.error-heading {
+  color: #ff0b37;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.warning-icon {
+  color: #ffb800;
+  font-size: 25px;
+  background-size: cover;
+}
+
+.warning-heading {
+  color: #ffb800;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.info-icon {
+  color: #0f81e0;
+  font-size: 25px;
+  background-size: cover;
+}
+
+.info-heading {
+  color: #0f81e0;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0;
 }

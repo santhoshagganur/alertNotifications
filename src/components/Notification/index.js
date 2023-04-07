@@ -2,7 +2,8 @@
 import './index.css'
 
 const Notification = props => {
-  console.log(props.children)
+  const {children} = props
+  return <> {children} </>
 }
 
 export default Notification
